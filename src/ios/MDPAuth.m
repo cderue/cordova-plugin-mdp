@@ -10,7 +10,6 @@
     NSString* clientId = [[command arguments] objectAtIndex:0];
     NSString* redirectUri = [[command arguments] objectAtIndex:1];
     NSString* state = [[command arguments] objectAtIndex:2];
-    NSString* msg = [NSString stringWithFormat: @"Hello, %@", name];
    
     NSString* mydigipassUrlString = @"mydigipass-oauth://x-callback-url/2.0/authenticate?x-success=";
 
