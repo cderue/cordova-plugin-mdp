@@ -1,7 +1,7 @@
 #import <Cordova/CDV.h>
 #import <UIKit/UIKit.h>
 
-@interface MVPAuth : CDVPlugin
+@interface MDPAuth : CDVPlugin
 
 - (void) authenticateWithState:(CDVInvokedUrlCommand*)command;
 
