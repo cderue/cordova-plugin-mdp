@@ -5,4 +5,6 @@
 
 - (void) authenticateWithState:(CDVInvokedUrlCommand*)command;
 
+- (void) test:(CDVInvokedUrlCommand*)command;
+
 @end
